@@ -1,4 +1,4 @@
-cd yukaumemura.github.io
+
 git commit -m "first commit"
 git remote add origin https://github.com/yukaumemura/yukaumemura.github.io
 git push origin master
