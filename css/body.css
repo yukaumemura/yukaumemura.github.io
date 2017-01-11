@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #ddd;
+  font-size: 14px;
+  padding: 10px 350px;
+  margin: 400px;
+background-image: url("../img/images.jpg");
+}
+
+span.red {
+  color: red;
+}
+.navbar {
+        border-radius: 0;
+      }
+header {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#logo {
+  padding: 10px 5px;
+  margin: -40px 50px;
+  float:left;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  box-shadow: inset 0 0 10px rgb(86, 154, 209),
+inset 0 0 70px rgb(236, 245, 130);
+}
+
+#logo img {
+  max-width: 400px;
+  border: 0.5px solid #fff;
+  border-radius: 22%;
+  margin: 0.2px 20px;
+  padding: 0.2px;
+}
+
+#logo h1 {
+  letter-spacing: 0.15em;
+  color: #00ffff;
+  text-shadow: 0.3px 0.5px 0px #000;
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+nav {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+
+nav ul li a.selected {
+  color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: -100px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 0.5px 10px;
+
+}
+
+section h2 {
+  padding: 10px 0px ;
+  letter-spacing: 0.15em;
+}
+section h2 {
+  margin-left: 200px;
+}
+footer {
+  padding: 15px;
+  margin: 10px;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}
+.icon {
+       text-align: center;
+       width: 30px;
+       margin: 30px;
+     }
+
+     .icon .glyphicon {
+       margin:5px;
+       font-size: 20px;
+       color: #777;
+     }
+
+     .content h2 {
+       margin-top: 0;
+       padding-bottom: 5px;
+     }
+     .content p {
+       margin: 10px;
+     }
+
+/* --- 見出しエリア --- */
+div.heading {
+background: #f9f9f9 url(heading_back1.gif) repeat-x; /* 見出しエリアの背景 */
+border: #c0c0c0 solid; /* 見出しエリアの境界線（色、スタイル） */
+border-width: 1px 1px 2px; /* 見出しエリアの境界線（太さ 上、左右、下） */
+margin: 5px 2px;
+}
+
+/* --- 見出し --- */
+div.heading h2 {
+margin:0px;
+padding: 7px 7px 4px 5px; /* 見出しのパディング（上、左右、下） */
+border-bottom: 2px #4169e1 solid; /* 見出しの下境界線 */
+font-size: 100%; /* 見出しの文字サイズ */
+line-height: 100%;
+}
+/* --- 新着情報エリア --- */
+div.update {
+width: 500px; /* 新着情報エリアの幅 */
+font-size: 80%;
+}
+
+/* --- 見出し --- */
+div.update h3 {
+margin: 0 0 5px; /* 見出しのマージン（上、左右、下） */
+font-size: 100%;
+}
+
+/* --- 新着リスト --- */
+div.update dl {
+width: 100%; /* 新着リストの幅 */
+margin: 0;
+border-top: 1px #c0c0c0 dotted; /* 新着リストの上境界線 */
+}
+
+/* --- 日付エリア --- */
+div.update dt {
+width: 6.7em; /* 日付エリアの幅 */
+float: left;
+padding: 7px 0 6px 3px; /* 日付エリアのパディング（上右下左） */
+line-height: 120%;
+}
+
+/* --- 本文エリア --- */
+div.update dd {
+margin: 0;
+padding: 7px 3px 6px 6.6em; /* 本文エリアのパディング（上右下左） */
+border-bottom: 1px #c0c0c0 dotted; /* 本文エリア下境界線 */
+line-height: 120%;
+}
+
+/* --- clearfix --- */
+.clearFix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearFix {
+min-height: 1px;
+}
