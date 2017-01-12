@@ -189,3 +189,17 @@ visibility: hidden;
 .clearFix {
 min-height: 1px;
 }
+
+/* --- リストエリア --- */
+ul.list {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/* --- リスト項目 --- */
+ul.list li {
+padding: 0 0 5px 15px; /* 項目のパディング（上右下左） */
+background: url(../img/triangle7.gif) no-repeat 3px 0.2em; /* マーカー画像 */
+line-height: 130%;
+}
