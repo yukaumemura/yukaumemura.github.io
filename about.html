@@ -14,85 +14,122 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-   <header>
-     <div class="header">
-       <nav class="navbar navbar-default">
-         <ul class="nav nav-pills">
-          <li role="presentation"><a href="index.html">Home</a></li>
-           <li role="presentation"><a href="about.html" class="selected">プロフィール</a></li>
-           <li role="presentation"><a href="contact.html">コンタクト</a></li>
-           <li role="presentation"><a href="itskills.html">ITスキル一覧</a></li>
-         </ul>
-       </nav>
-     </div><!--header-->
-   </header>
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="selected">プロフィール</a></li>
+        <li><a href="contact.html">コンタクト</a></li>
+        <li><a href="itskills.html">ITスキル一覧</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div id="logo">
-      <img src="img/photo_773.jpg" alt="自分の写真">
-    </div><!--logo-->
-    <br>
-    <div class="container">
-      
-   <div class="heading"><h2>About</h2></div>
-   
-   <section>
-      <h3>自己紹介</h3>
-       <p>梅村侑香（フリーター）</p>
-       <p>愛知県出身。</p>
-       <p>西暦1989年4月20日生まれ</p>
-       <p>趣味はプログラミングとお絵かき</p>
-       <p>私のポートフォリオを見て気になった方は、
-          <a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
-     </section>
-     <br>
-     
-<div class="heading"><h2>経歴要約</h2></div>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>年齢</th>
-        <th>事柄</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>18</td>
-        <td>名古屋市内の情報処理系専門学校を卒業</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>18～23</td>
-        <td>家庭の事情から高卒枠でﾄﾖﾀ関連企業で自動車部品の組立て作業に従事</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>24</td>
-        <td>昼は職業訓練校でJAVA、servlet、JSP、HTML,CSSの授業を受け、<br>
-        夕方から夜はITスクールでJAVAのアンドロイド開発の勉強しながら、<br>
-        コンビニなどでアルバイトする。</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>25</td>
-        <td>大手通信キャリアのグループ企業で基地局設備等の運用と事務に従事</td>
-      </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td>26</td>
-      <td>主に飲食店などでアルバイト</td>
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td>27～現在</td>
-      <td>名古屋市内の福祉施設で自社HPの企画作成運用と自社内のシステム開発等に従事中</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
-<footer class="footer">
-       <p class="text-muted">2017.yukaumemura.</p>
-     </footer>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 well">
+      <div class="well">
+        <p>My Profile</p>
+        <img src="img/photo_773.jpg" alt="自分の写真" class="img-responsive" width="300">
+        
+      </div>
+      <div class="well">
+        <p>SNS</p>
+        <p>
+          <span class="label label-default">News</span>
+          <span class="label label-primary">W3Schools</span>
+          <span class="label label-success">Labels</span>
+          <span class="label label-info">Football</span>
+          <span class="label label-warning">Gaming</span>
+          <span class="label label-danger">Friends</span>
+        </p>
+      </div>
+      <ul class="list-group">
+  <li class="list-group-item">First item</li>
+  <li class="list-group-item">Second item</li>
+  <li class="list-group-item">Third item</li>
+</ul>
+    </div>
+    
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="panel panel-default">
+            <div class="panel-heading"><h3>自己紹介</h3></div>
+            <div class="panel-body">
+              <section>
+                 <p>梅村侑香（フリーター）</p>
+                 <p>愛知県出身。</p>
+                 <p>西暦1989年4月20日生まれ</p>
+                 <p>趣味はプログラミングとお絵かき</p>
+                 <p>私のポートフォリオを見て気になった方は、<br>
+                    <a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+               </section>
+            </div>
+          </div>
+          
+           <div class="panel panel-default">
+            <div class="panel-heading"><h3>経歴要約</h3></div>
+            <div class="panel-body">
+              <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>年齢</th>
+                  <th>事柄</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>18</td>
+                  <td>名古屋市内の情報処理系専門学校を卒業</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>18～23</td>
+                  <td>家庭の事情から高卒枠でﾄﾖﾀ関連企業で自動車部品の組立て作業に従事</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>24</td>
+                  <td>昼は職業訓練校でJAVA、servlet、JSP、HTML,CSSの授業を受け、<br>
+                  夕方から夜はITスクールでJAVAのアンドロイド開発の勉強しながら、<br>
+                  コンビニなどでアルバイトする。</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>25</td>
+                  <td>大手通信キャリアのグループ企業で基地局設備等の運用と事務に従事</td>
+                </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>26</td>
+                <td>主に飲食店などでアルバイト</td>
+              </tr>
+              <tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<footer class="container-fluid text-center">
+  <p class="text-muted">yukaumemura.</p>
+</footer>    
   </body>
 </html>

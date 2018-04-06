@@ -28,34 +28,48 @@
      </div><!--header-->
    </header>
      
-    <div class="container">
-      <div class="page-header"><h1>ITスキル一覧</h1></div>
-         <div class="heading"><h2>ページ説明</h2></div>
-         <p>現在、梅村侑香が獲得してるITスキル＆経験値を閲覧できます。</p>
-         <h3>能力値基準</h3>
-         <div class="table-responsive">
-         <table class="table table-bordered">
-           <thead>
-             <tr>
-               <td>評価科目</td>
-               <td>学習レベル</td>
-               <td>学習レベルだが、指導できる</td>
-              <td>自信もって指導できる</td>
-              <td>実務経験あり</td>
-             </tr>
-             </thead>
-             <tr>
-               <td>評価レベル</td>
-               <td class="success">D</td>
-               <td class="warning">C</td>
-              <td class="info">B</td>
-              <td class="danger">A</td>
-             </tr>
-         </table>
-       </div>
-         <br>
-         <div class="heading"><h2>ITスキル一覧表</h2></div>
-         　<table class="table table-condensed">
+    <div class="container-fluid">
+         <h2>ITスキル一覧</h2>
+        <div class="col-sm-3">
+      <div class="panel panel-default">
+          <div class="panel-heading">能力値基準</div>
+          <div class="panel-body">
+               <p>現在、梅村侑香が獲得してる<br>ITスキル＆経験値が閲覧可能。</p>
+               
+               
+               <table class="table table-bordered">
+            	<tbody>
+            		<tr>
+            			<th>評価科目</th>
+            			<th>評価レベル</th>
+            		</tr>
+            		<tr>
+            			<td class="danger">A</td>
+            			<td>実務経験あり</td>
+            		</tr>
+            		<tr>
+            			<td class="info">B</td>
+            			 <td>自信もって指導可能</td>
+            		</tr>
+            		<tr>
+            		    <td class="warning">C</td>
+            			<td>学習レベルだが、<br>指導できる</td>
+            		</tr>
+            		<tr>
+            			<td class="success">D</td>
+            			 <td>学習レベル</td>
+            		</tr>
+            	</tbody>
+            </table>
+             </div>
+             
+          </div>
+         </div>
+         <div class="col-sm-9">
+         <div class="panel panel-default">
+  <div class="panel-heading"><h2>ITスキル一覧表</h2></div>
+  <div class="panel-body">
+      <table class="table table-condensed">
             <thead>
               <tr>
                 <th>名称</th>
@@ -108,7 +122,7 @@
                 <td>ExcelVBA</td>
                 <td class="warning">C</td>
                 <td>タイムカード作成経験あり。<br>
-              　ただし、テキストボックスから値をとったものしかやったことありません</td>
+              　ただし、テキストボックスから値をとったものしかやった事がない</td>
                 </tr>
                 <tr class="even">
                 <td>XML</td>
@@ -133,15 +147,18 @@
                 <tr class="even">
                 <td>Bootstrap</td>
                 <td class="success">D</td>
-                <td></td>
+                <td>テックアカデミーにて習得</td>
                 </tr>
                 </tbody>
               </table>
-              <br>
+          </div>
+     </div>
+         　
+              </div>
 　　　　　</div><!--container-->
 　　　　　
-     　<footer class="footer">
-       <p class="text-muted">2017.yukaumemura.</p>
-     </footer>
+     　<footer class="container-fluid text-center">
+  <p class="text-muted">yukaumemura.</p>
+</footer>    
   </body>
 </html>
