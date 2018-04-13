@@ -4,7 +4,6 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/yukaumemura/yukaumemura.github.io
 git push origin master
-yukaumemura
-rnjv6535
+
 GitHub Pagesにアクセスする
 https://yukaumemura.github.io
